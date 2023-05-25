@@ -9,7 +9,7 @@ nav_order: 5
 
 I take pride in teaching. There is no satisfaction greater than seeing the face of a student light up after grasping a difficult concept for the first time. Inspired by my teachers, both good and bad, I have learned that teaching is not merely about regurgitating the material at hand, but about engaging students in critical thinking consistent with the Socratic method. I believe that a successful teacher should be able to find effective means of teaching students the course material, and teach students to question and explore instead of taking everything at face value. Therefore, I view my role not only as someone who explains to students concepts and ideas, but also as someone who guides them to ask the right questions and helps them to understand the answers.
 
-<h3>courses taught</h3>
+<h2>courses taught</h2>
 
 Washington University in St. Louis:
 <ul>
@@ -31,7 +31,7 @@ New Mexico State University:
 <li>CS 575: Artificial Intelligence II (Fall 2012, Fall 2014)</li>
 </ul>
 
-<h3>teaching awards</h3>
+<h2>teaching awards</h2>
 
 - <a href="https://source.wustl.edu/2022/11/seven-faculty-honored-with-2022-emerson-teaching-awards/">Excellence in Teaching Award</a>, Emerson (2022)
 - Outstanding Graduate Faculty Award in Mentoring, Computer Science Graduate Student Organization, New Mexico State University (2015, 2016)
