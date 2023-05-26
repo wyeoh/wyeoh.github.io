@@ -62,6 +62,7 @@
               </li>
               {%- endif %}
 
+
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
@@ -83,7 +84,13 @@
                   {% endfor %}
                 </div>
               </li>
-              {%- else %}
+              {%- elsif p.title contains 'cv' %}
+              <!-- External links -->
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.cse.wustl.edu/~wyeoh/William%20Yeoh%20-%20CV.pdf">{{ p.title }}
+                </a>
+              </li>
+              {%- else %}                            
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
                   {%- if page.title == p.title -%}

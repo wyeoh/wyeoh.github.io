@@ -23,7 +23,8 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
-table {
+table.news {
+
   td,
   th {
     font-size: 1rem;
@@ -31,11 +32,14 @@ table {
 
   th {
     font-weight: bold;
+    width: 12%;
   }
+  
+  margin-bottom: 1.5rem;
 }
 
 a,
-table.table a {
+table.news a {
   color: var(--global-theme-color);
 
   &:hover {
@@ -48,7 +52,7 @@ table.table a {
   }
 }
 
-.table-dark {
+.news-dark {
   background-color: transparent;
 }
 
@@ -543,7 +547,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 0rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -593,8 +597,8 @@ footer.sticky-bottom {
         abbr {        
           display: inline-block;
           background-color: var(--global-theme-color);
-          padding-left: 0.4rem;
-          padding-right: 0.4rem;
+          padding-left: 0.3rem;
+          padding-right: 0.3rem;
 
           a {
             color: white;

@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: https://sites.wustl.edu/wyeoh/
 title: cv
 nav: true
 nav_order: 4

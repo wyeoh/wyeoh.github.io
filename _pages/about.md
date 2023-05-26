@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: 
 
@@ -13,7 +13,7 @@ profile:
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 I am an associate professor in the [Department of Computer Science and Engineering](https://cse.wustl.edu/)  at Washington University in St. Louis. I also direct the [Division of Computational and Data Sciences](https://datasciences.wustl.edu/), a new inter-disciplinary PhD program spanning the Computer Science and Engineering department, the Brown School of Social Work and Public Health, and the Political Science and Psychology and Brain Sciences departments in the College of Arts and Sciences.
 

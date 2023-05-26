@@ -11,7 +11,7 @@ I take pride in teaching. There is no satisfaction greater than seeing the face 
 
 <h2>courses taught</h2>
 
-Washington University in St. Louis:
+**Washington University in St. Louis:**
 <ul>
 <li style="margin: -12px 0px 0px 0px;">CSE 311A: Introduction to Intelligent Agents Using Science Fiction (Fall 2018, Spring 2020, Fall 2022)</li>
 <li>CSE 412A/511A: Introduction to Artificial Intelligence (Spring 2018, Spring 2019, Fall 2019, Fall 2020, Spring 2021, Fall 2021, Spring 2022)</li>
@@ -19,7 +19,7 @@ Washington University in St. Louis:
 <li>DCDS 500: Computational and Data Sciences Research Exploration (Spring 2021, Spring 2022, Spring 2023)</li>
 </ul>
 
-New Mexico State University:
+**New Mexico State University:**
 <ul>
 <li style="margin: -12px 0px 0px 0px;">CS 475/505: Artificial Intelligence I (Spring 2014, Spring 2015)</li>
 <li>CS 479: Introduction to Intelligent Agents Using Science Fiction (Fall 2014, Fall 2015)</li>

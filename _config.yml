@@ -102,8 +102,7 @@ facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -275,7 +274,8 @@ scholar:
 
   source: /_bibliography/
   primary_bibliography: papers.bib
-  secondary_bibliography: workshops.bib
+  secondary_bibliography: ext-abstracts.bib  
+  tertiary_bibliography: workshops.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -296,7 +296,7 @@ badges: # Display different badges for your publications
   dimensions_badge: false # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, award, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3  # leave blank to always show all authors
