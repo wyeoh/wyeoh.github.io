@@ -13,7 +13,7 @@ horizontal: false
 
 My research interest is in artificial intelligence, where I develop methods based on decision theory, constraint programming, and heuristic search and apply them on agent-based systems. More recently, my research has focused on enabling human-AI collaboration through human-aware decision-making algorithms. The word cloud above has been obtained using [Word Art](https://wordart.com/) on the abstracts of my [papers](/publications).
 
-Below are my current active projects that we are pursuing. For a list of all projects, including our older archived projects, please visit our [projects](/projects/) page.
+Below are current active projects that we are pursuing. For a list of all projects, including our older archived projects, please visit our [projects](/projects/) page.
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -67,15 +67,15 @@ Below are my current active projects that we are pursuing. For a list of all pro
 
 <h2>research grants</h2>
 
+<p></p>
+
 <img style="float: left; margin: 0px 10px 0px 0px;" src="/assets/img/nsf.png" width="50px">
 [Collaborative Research: RI: Small: End-to-end Learning of Fair and Explainable Schedules for Court Systems](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2232055).
 National Science Foundation (2023 – 2026).
 
-
 <img style="float: left; margin: 0px 10px 0px 0px;" src="/assets/img/jpmc.jpg" width="50px">
 [Improving Client Experience Through Goal Recognition and Explainable Assistance in Adaptive Systems](https://www.jpmorgan.com/technology/artificial-intelligence/research-awards/faculty-research-awards-2022).
 J.P. Morgan Chase Bank (2022 – 2023).
-
 
 <img style="float: left; margin: 0px 10px 0px 0px;" src="/assets/img/bsf.png" width="50px">
 [Communication-Aware Distributed Constraint Optimization Problems: Foundations, Models, and Algorithms](https://www.bsf.org.il/search-grant/?SearchPI=yeoh).

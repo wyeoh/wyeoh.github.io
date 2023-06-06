@@ -16,7 +16,9 @@
         {%- endif -%}
           <div class="card-body">
             <h3 class="card-title text-lowercase">{{ project.title }}</h3>
+          	{% if project.description != blank -%}            
             <p class="card-text">{{ project.description }}</p>
+            {%- endif -%}
             <div class="row ml-1 mr-1 p-0">
               {%- if project.github -%}
               <div class="github-icon">
