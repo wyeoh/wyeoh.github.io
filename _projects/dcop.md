@@ -13,6 +13,8 @@ Our current research focus is three fold:
 - We are investigating ways to enrich the DCOP model and extend DCOP algorithms to better account for imperfect communication (e.g., message delays and message losses).
 - We plan to enrich DCOPs so that they can be used to model dynamic and uncertain problems through integration with concepts from decentralized Markov decision processes (Dec-MDPs). The proposed models and algorithms will serve as a bridge between DCOPs and Dec-MDPs, balancing the tradeoffs between expressivity and scalability.
 
+To learn more, please see our [tutorial on multi-agent distributed constrained optimization](/assets/pdf/tutorial-aaai20-dcop.pdf){:target="_blank"}, which we gave at AAAI 2020.
+
 <h2>sponsors</h2>
 
 <p></p>
