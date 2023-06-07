@@ -181,6 +181,10 @@ table.news a:hover:after :not(.nav-item.dropdown) {
   background-color: transparent;
 }
 
+.table-dark {
+  background-color: transparent;
+}
+
 figure,
 img {
   max-width: 90vw;
