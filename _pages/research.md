@@ -80,7 +80,7 @@ J.P. Morgan Chase Bank (2022 – 2023).
 [Communication-Aware Distributed Constraint Optimization Problems: Foundations, Models, and Algorithms](https://www.bsf.org.il/search-grant/?SearchPI=yeoh).
 Binational Science Foundation (2019 – 2022).
 
-<img style="float: left; margin: 0px 10px 0px 0px;" src="/assets/img/darpa.jpg" width="50px">
+<img style="float: left; margin: 0px 10px 0px 0px;" src="/assets/img/darpa.png" width="50px">
 [Anytime Reasoning and Analysis for Kill-Web Negotiation and Instantiation Across Domains (ARAKNID)](https://beta.sam.gov/awards/88568401%2BAWARD).
 Defense Advanced Research Projects Agency (2019 – 2022).
 
@@ -92,7 +92,7 @@ Boeing (2019).
 [RI: Small: Collaborative Research: Preference Elicitation and Device Scheduling for Smart Homes](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1812619).
 National Science Foundation (2018 – 2021).
 
-<img style="float: left; margin: 0px 10px 0px 0px;" src="/assets/img/darpa.jpg" width="50px">
+<img style="float: left; margin: 0px 10px 0px 0px;" src="/assets/img/darpa.png" width="50px">
 [Mission-oriented Adaptive Placement of Task and Data (MAP)](https://beta.sam.gov/awards/70580675%2BAWARD).<br/>
 Defense Advanced Research Projects Agency (2017 – 2021).
 

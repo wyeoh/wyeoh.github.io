@@ -21,7 +21,7 @@ Our research focuses on how to coordinate the computational nodes at the edge of
 
 <p></p>
 
-<img style="float: left; margin: 0px 10px 0px 0px;" src="/assets/img/darpa.jpg" width="50px">
+<img style="float: left; margin: 0px 10px 0px 0px;" src="/assets/img/darpa.png" width="50px">
 [Mission-oriented Adaptive Placement of Task and Data (MAP)](https://beta.sam.gov/awards/70580675%2BAWARD).<br/>
 Defense Advanced Research Projects Agency (2017 – 2021).<br/>
 <font size = "1"><br/></font>
