@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: research projects
 permalink: /projects/
 description: 
 nav: false
@@ -8,6 +8,8 @@ nav_order: 2
 display_categories: [active, inactive, ]
 horizontal: false
 ---
+
+Below is a complete list of research projects, including our older archived projects. For an overview of our research, please visit our [research page](/research/). 
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -56,3 +58,4 @@ horizontal: false
   {%- endif -%}
 {%- endif -%}
 </div>
+

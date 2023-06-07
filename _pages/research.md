@@ -13,7 +13,7 @@ horizontal: false
 
 My research interest is in artificial intelligence, where I develop methods based on decision theory, constraint programming, and heuristic search and apply them on agent-based systems. More recently, my research has focused on enabling human-AI collaboration through human-aware decision-making algorithms. The word cloud above has been obtained using [Word Art](https://wordart.com/) on the abstracts of my [papers](/publications).
 
-Below are current active projects that we are pursuing. Please visit our [projects page](/projects/) for a complete list of projects, including our older archived projects. 
+Below are current active projects that we are pursuing. Please visit our [research projects page](/projects/) for a complete list of projects, including our older archived projects. 
 
 <!-- pages/projects.md -->
 <div class="projects">
