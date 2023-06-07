@@ -13,14 +13,13 @@ horizontal: false
 
 My research interest is in artificial intelligence, where I develop methods based on decision theory, constraint programming, and heuristic search and apply them on agent-based systems. More recently, my research has focused on enabling human-AI collaboration through human-aware decision-making algorithms. The word cloud above has been obtained using [Word Art](https://wordart.com/) on the abstracts of my [papers](/publications).
 
-Below are current active projects that we are pursuing. For a list of all projects, including our older archived projects, please visit our [projects](/projects/) page.
+Below are current active projects that we are pursuing. Please visit our [projects page](/projects/) for a complete list of projects, including our older archived projects. 
 
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->

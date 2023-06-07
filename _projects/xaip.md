@@ -1,14 +1,14 @@
 ---
 layout: page
-title: explainable planning
-img: assets/img/xaip.jpg
+title: explainable planning and scheduling
+img: assets/img/project-xaip.jpg
 importance: 1
 category: active
 ---
-<img style="float: left; padding: 5px 10px 5px 0px; width: 240px" src="/assets/img/xaip.jpg">
-In human-aware planning systems, when the planning agent recommends a plan (e.g., a route from A to B) to a human user, it is often the case that the user might not understand why the recommended plan is good, for example, compared to an alternative plan in the user’s mind. In such a scenario, there is a need for the agent to explain its plan to the user, providing them with the necessary information to understand properties of the plan (e.g., optimality, feasibility, etc.).
+<img style="float: left; margin: 5px 10px 5px 0px; width: 240px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="/assets/img/project-xaip.jpg">
+In human-aware planning and scheduling systems, when the agent recommends a plan or schedule to a human user, it is often the case that the user might not understand why the recommendation is good, for example, compared to an alternative in the user’s mind. In such a scenario, there is a need for the agent to *explain* its recommendation to the user, providing them with the necessary information to understand properties of the recommendation (e.g., optimality, feasibility, etc.).
 
-We are approaching this problem from a knowledge representation and reasoning (KR) perspective, where we represent the mental models of both the planning agent and the human user using logical facts and rules. Within this framework, we adapt and generalize KR notions (e.g., entailment, hitting sets, model counting) to solve this problem.
+We are approaching this problem from a knowledge representation and reasoning (KR) perspective, where we represent the mental models of both the agent and the human user using logical facts and rules. Within this framework, we adapt and generalize KR notions (e.g., entailment, hitting sets, model counting) to solve this problem.
 
 <h2>sponsors</h2>
 

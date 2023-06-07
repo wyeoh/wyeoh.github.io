@@ -4,7 +4,7 @@ permalink: /contact/
 title: contact
 description: 
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 **Office**: McKelvey 3034 <br/>

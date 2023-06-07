@@ -1,11 +1,11 @@
 ---
 layout: page
-title: goal recognition
-img: assets/img/grd.jpg
+title: goal recognition and design
+img: assets/img/project-grd.jpg
 importance: 2
 category: active
 ---
-<img style="float: left; padding: 5px 10px 5px 0px; width: 240px" src="/assets/img/grd.jpg">
+<img style="float: left; margin: 5px 10px 5px 0px; width: 240px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="/assets/img/project-grd.jpg">
 In goal recognition problems, the goal is to identify the goal of an observed agent as quickly as possible before they reach their goal. This problem can be applied to a number of applications ranging from software personal assistants and robots that anticipate the needs of humans; intelligent tutoring systems that recognize sources of confusion or misunderstanding in students through their interactions with the system; and security applications that recognize terrorists plans.
 
 In goal recognition design problems, the objective is to identify the best ways to modify the underlying environment of the agents in such a way that they are forced to reveal their goals as early as possible. This problem is typically applicable in the same goal recognition applications as long as the underlying environment can be modified. For example, in intelligent tutoring systems, it is possible to modify the sequence or type of questions asked so that students’ misunderstanding can be identified sooner. Similarly, in security applications, it may be possible to block some paths so that an attacker’s plan can be recognized earlier.
