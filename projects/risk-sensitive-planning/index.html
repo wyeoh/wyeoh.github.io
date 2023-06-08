@@ -14,7 +14,33 @@
     <meta name="author" content="William  Yeoh">
     <meta name="description" content="(archived 2017)">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+</head>
+<body>
+<p>
+'
+    
 
+<script type="application/javascript">
+
+function resizeIFrameToFitContent( iFrame ) {
+
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+
+window.addEventListener('DOMContentLoaded', function(e) {
+
+    var iFrame = document.getElementById( 'iFrame1' );
+    resizeIFrameToFitContent( iFrame );
+
+    // or, to resize all iframes:
+    var iframes = document.querySelectorAll("iframe");
+    for( var i = 0; i < iframes.length; i++) {
+        resizeIFrameToFitContent( iframes[i] );
+    }
+} );
+
+</script>  
 
     <!-- Bootstrap & MDB -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
@@ -48,10 +74,10 @@
     <script src="/assets/js/dark_mode.js"></script>
     
 
-  </head>
+  
 
   <!-- Body -->
-  <body class="fixed-top-nav ">
+  </p>
 
     <!-- Header -->
     <header>
@@ -431,5 +457,6 @@ National Science Foundation (2016 – 2021).<br></p>
   }
 </script>
 
-  </body>
+  
+</body>
 </html>
