@@ -9,7 +9,7 @@ display_categories: [active]
 horizontal: false
 ---
 
-<img src="/assets/img/wordart.jpg" width="100%">
+<img src="/assets/img/wordart.png" width="100%">
 
 My research interest is in artificial intelligence, where I develop methods based on decision theory, constraint programming, and heuristic search and apply them on agent-based systems. More recently, my research has focused on enabling human-AI collaboration through human-aware decision-making algorithms. The word cloud above has been obtained using [Word Art](https://wordart.com/) on the abstracts of my [papers](/publications).
 
