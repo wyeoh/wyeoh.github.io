@@ -84,6 +84,12 @@
                   {% endfor %}
                 </div>
               </li>
+              {%- elsif p.title contains 'research' %}
+              <!-- External links -->
+              <li class="nav-item">
+                <a class="nav-link" href="https://yeoh-lab.wustl.edu">{{ p.title }}
+                </a>
+              </li>
               {%- elsif p.title contains 'cv' %}
               <!-- External links -->
               <li class="nav-item">
