@@ -20,6 +20,29 @@
   about-selected={true},  
 }
 
+@article{DBLP:journals/eaai/ChoudhurySYK0K23,
+  author       = {Moumita Choudhury and
+                  Amit Sarker and
+                  Samin Yaser and
+                  Md. Maruf Al Alif Khan and
+                  William Yeoh and
+                  Md. Mosaddek Khan},
+  title        = {A Particle Swarm Inspired Approach for Continuous Distributed Constraint
+                  Optimization Problems},
+  journal      = {Engineering Applied Artificial Intelligence},
+  volume       = {123},
+  number       = {Part {B}},
+  pages        = {106280},
+  year         = {2023},
+  abbr       = {EAAI},    
+  abstract = {Distributed Constraint Optimization Problems (DCOPs) are a widely studied framework for coordinating interactions in cooperative multi-agent systems. In classical DCOPs, variables owned by agents are assumed to be discrete. However, in many applications, such as target tracking or sleep scheduling in sensor networks, continuous-valued variables are more suitable than discrete ones. To better model such applications, researchers have proposed Continuous DCOPs (C-DCOPs), an extension of DCOPs, that can explicitly model problems with continuous variables. The state-of-the-art approaches for solving C-DCOPs experience either onerous memory or computation overhead and are unsuitable for non-differentiable optimization problems. To address this issue, we propose a new C-DCOP algorithm, namely Particle Swarm Optimization Based C-DCOP (PCD), which is inspired by Particle Swarm Optimization (PSO), a well-known centralized population-based approach for solving continuous optimization problems. In recent years, population-based algorithms have gained significant attention in classical DCOPs due to their ability in producing high-quality solutions. Nonetheless, to the best of our knowledge, this class of algorithms has not been utilized to solve C-DCOPs and there has been no work evaluating the potential of PSO in solving classical DCOPs or C-DCOPs. In light of this observation, we adapted PSO, a centralized algorithm, to solve C-DCOPs in a decentralized manner. The resulting PCD algorithm not only produces good-quality solutions but also finds solution without any requirement for derivative calculations. Moreover, we design a crossover operator that can be used by PCD to further improve the quality of solutions found. Finally, we theoretically prove that PCD is an anytime algorithm and empirically evaluate PCD against the state-of-the-art C-DCOP algorithms in a wide variety of benchmarks.},
+  pdf={eaai-ChoudhurySYK0K23.pdf},  
+  bibtex_show={true},    
+  about-selected={false},    
+  project-selected={true},    
+  project={dcop},    
+}
+
 @article{DBLP:journals/jair/RachmutZ022,
   author       = {Ben Rachmut and
                   Roie Zivan and
@@ -286,7 +309,9 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   abstract = {Agent Scheduling Problems (ASPs) are common in various real-world situations, requiring explainable decision-making processes to effectively allocate resources to multiple agents while fostering understanding and trust. To address this need, this paper presents a logic-based framework for providing explainable decisions in ASPs. Specifically, the framework addresses two types of queries: reason-seeking queries, which explain the reasoning behind scheduling decisions, and modification-seeking queries, which offer guidance on making infeasible decisions feasible. Acknowledging the importance of privacy in multi-agent scheduling, we introduce a privacy-loss function that measures the disclosure of private information in explanations, enabling a privacy-preserving aspect in our framework. By using this function, we introduce the notion of privacy-aware explanations and present an algorithm for computing them. Empirical evaluations demonstrate the effectiveness and versatility of our approach.},
   pdf={ecai-VasileiouX023.pdf},  
   bibtex_show={true},    
-  about-selected={true},
+  about-selected={false},
+  project-selected={true},      
+  project={xaip},        
 }
 
 @inproceedings{DBLP:conf/ecai/Vasileiou023,
@@ -297,10 +322,12 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   pages        = {2411--2418},
   year         = {2023},
   abbr       = {ECAI},
-  abstract = {Model Reconciliation Problems (MRPs) and their variant, Logic-based MRPs (L-MRPs), have emerged as popular methods for explainable planning problems. Both MRP and L-MRP approaches assume that the explaining agent has access to an assumed model of the human user receiving the explanation, and it reconciles its own model with the human model to find the differences such that when they are provided as explanations to the human, they will understand them. However, in practical applications, the agent is likely to be fairly uncertain on the actual model of the human and wrong assumptions can lead to incoherent or unintelligible explanations. In this paper, we propose a less stringent requirement: The agent has access to a task-specific vocabulary known by the human and, if available, a human model capturing confidently-known information. Our goal is to find a personalized explanation, which is an explanation that is at an appropriate abstraction level with respect to the human?s vocabulary and model. Using a logic-based method called knowledge forgetting for generating abstractions, we propose a simple framework compatible with L-MRP approaches, and evaluate its efficacy through computational and human user experiments.},
+  abstract = {Model Reconciliation Problems (MRPs) and their variant, Logic-based MRPs (L-MRPs), have emerged as popular methods for explainable planning problems. Both MRP and L-MRP approaches assume that the explaining agent has access to an assumed model of the human user receiving the explanation, and it reconciles its own model with the human model to find the differences such that when they are provided as explanations to the human, they will understand them. However, in practical applications, the agent is likely to be fairly uncertain on the actual model of the human and wrong assumptions can lead to incoherent or unintelligible explanations. In this paper, we propose a less stringent requirement: The agent has access to a task-specific vocabulary known by the human and, if available, a human model capturing confidently-known information. Our goal is to find a personalized explanation, which is an explanation that is at an appropriate abstraction level with respect to the human's vocabulary and model. Using a logic-based method called knowledge forgetting for generating abstractions, we propose a simple framework compatible with L-MRP approaches, and evaluate its efficacy through computational and human user experiments.},
   pdf={ecai-Vasileiou023.pdf},  
   bibtex_show={true},    
-  about-selected={true},
+  about-selected={false},
+  project-selected={true},      
+  project={xaip},        
 }
 
 @inproceedings{DBLP:conf/icaps/KumarV023,
