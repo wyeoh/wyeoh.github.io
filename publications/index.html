@@ -141,7 +141,8 @@
 
 <h3>journal and magazine articles</h3>
 	<h2 class="year">2023</h2>
-	<ol class="bibliography"><li>
+	<ol class="bibliography">
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-1 abbr"><abbr class="badge">AIJ</abbr></div>
@@ -210,7 +211,81 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-1 abbr"><abbr class="badge">EAAI</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="DBLP:journals/eaai/ChoudhurySYK0K23" class="col-sm-10">
+        <!-- Title -->
+        <div class="title">A Particle Swarm Inspired Approach for Continuous Distributed Constraint
+                  Optimization Problems</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Moumita Choudhury, Amit Sarker, Samin Yaser, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'Md. Maruf Al Alif Khan, William Yeoh, Md. Mosaddek Khan' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">3 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Engineering Applied Artificial Intelligence</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Awards -->
+          <div class="award">
+          </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="/assets/pdf/eaai-ChoudhurySYK0K23.pdf" target="_blank" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Distributed Constraint Optimization Problems (DCOPs) are a widely studied framework for coordinating interactions in cooperative multi-agent systems. In classical DCOPs, variables owned by agents are assumed to be discrete. However, in many applications, such as target tracking or sleep scheduling in sensor networks, continuous-valued variables are more suitable than discrete ones. To better model such applications, researchers have proposed Continuous DCOPs (C-DCOPs), an extension of DCOPs, that can explicitly model problems with continuous variables. The state-of-the-art approaches for solving C-DCOPs experience either onerous memory or computation overhead and are unsuitable for non-differentiable optimization problems. To address this issue, we propose a new C-DCOP algorithm, namely Particle Swarm Optimization Based C-DCOP (PCD), which is inspired by Particle Swarm Optimization (PSO), a well-known centralized population-based approach for solving continuous optimization problems. In recent years, population-based algorithms have gained significant attention in classical DCOPs due to their ability in producing high-quality solutions. Nonetheless, to the best of our knowledge, this class of algorithms has not been utilized to solve C-DCOPs and there has been no work evaluating the potential of PSO in solving classical DCOPs or C-DCOPs. In light of this observation, we adapted PSO, a centralized algorithm, to solve C-DCOPs in a decentralized manner. The resulting PCD algorithm not only produces good-quality solutions but also finds solution without any requirement for derivative calculations. Moreover, we design a crossover operator that can be used by PCD to further improve the quality of solutions found. Finally, we theoretically prove that PCD is an anytime algorithm and empirically evaluate PCD against the state-of-the-art C-DCOP algorithms in a wide variety of benchmarks.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">DBLP:journals/eaai/ChoudhurySYK0K23</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Choudhury, Moumita and Sarker, Amit and Yaser, Samin and Khan, Md. Maruf Al Alif and Yeoh, William and Khan, Md. Mosaddek}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{A Particle Swarm Inspired Approach for Continuous Distributed Constraint
+                    Optimization Problems}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Engineering Applied Artificial Intelligence}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{123}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{Part {B}}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{106280}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
 
 	<h2 class="year">2022</h2>
 	<ol class="bibliography">
@@ -1187,7 +1262,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Model Reconciliation Problems (MRPs) and their variant, Logic-based MRPs (L-MRPs), have emerged as popular methods for explainable planning problems. Both MRP and L-MRP approaches assume that the explaining agent has access to an assumed model of the human user receiving the explanation, and it reconciles its own model with the human model to find the differences such that when they are provided as explanations to the human, they will understand them. However, in practical applications, the agent is likely to be fairly uncertain on the actual model of the human and wrong assumptions can lead to incoherent or unintelligible explanations. In this paper, we propose a less stringent requirement: The agent has access to a task-specific vocabulary known by the human and, if available, a human model capturing confidently-known information. Our goal is to find a personalized explanation, which is an explanation that is at an appropriate abstraction level with respect to the human?s vocabulary and model. Using a logic-based method called knowledge forgetting for generating abstractions, we propose a simple framework compatible with L-MRP approaches, and evaluate its efficacy through computational and human user experiments.</p>
+            <p>Model Reconciliation Problems (MRPs) and their variant, Logic-based MRPs (L-MRPs), have emerged as popular methods for explainable planning problems. Both MRP and L-MRP approaches assume that the explaining agent has access to an assumed model of the human user receiving the explanation, and it reconciles its own model with the human model to find the differences such that when they are provided as explanations to the human, they will understand them. However, in practical applications, the agent is likely to be fairly uncertain on the actual model of the human and wrong assumptions can lead to incoherent or unintelligible explanations. In this paper, we propose a less stringent requirement: The agent has access to a task-specific vocabulary known by the human and, if available, a human model capturing confidently-known information. Our goal is to find a personalized explanation, which is an explanation that is at an appropriate abstraction level with respect to the human’s vocabulary and model. Using a logic-based method called knowledge forgetting for generating abstractions, we propose a simple framework compatible with L-MRP approaches, and evaluate its efficacy through computational and human user experiments.</p>
           </div>
 <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
