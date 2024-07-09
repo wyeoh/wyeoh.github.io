@@ -13,10 +13,10 @@ I take pride in teaching. There is no satisfaction greater than seeing the face 
 
 **Washington University in St. Louis:**
 <ul>
-<li style="margin: -12px 0px 0px 0px;">CSE 311A: Introduction to Intelligent Agents Using Science Fiction (F'18, S'20, F'22, F'23)</li>
+<li style="margin: -12px 0px 0px 0px;">CSE 311A: Introduction to Intelligent Agents Using Science Fiction (F'18, S'20, F'22, F'23, F'24)</li>
 <li>CSE 412A/511A: Introduction to Artificial Intelligence (S'18, S'19, F'19, F'20, S'21, F'21, S'22)</li>
 <li>DCDS 499: Introduction to Graduate Research in Computational and Data Sciences (F'19)</li>
-<li>DCDS 500: Computational and Data Sciences Research Exploration (S'21, S'22, S'23, S'24)</li>
+<li>DCDS 500: Computational and Data Sciences Research Exploration (S'21, S'22, S'23)</li>
 </ul>
 
 **New Mexico State University:**
