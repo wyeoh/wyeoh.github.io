@@ -340,6 +340,44 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   about-selected={false},
 }
 
+@inproceedings{conf/cp/ZivanR024,
+  author       = {Roie Zivan and
+                  Shiraz Regev and
+                  William Yeoh},
+  title        = {Ex-Ante Constraint Elicitation in Incomplete DCOPs},
+  booktitle    = {International Conference on Principles and Practice of Constraint Programming},
+  pages        = {to appear},
+  year         = {2024},
+  abbr       = {CP},  
+  abstract = {Distributed Constraint Optimization Problems (DCOPs) is a framework for representing and solving distributed combinatorial problems, where agents  exchange messages to assign variables they own, such that the sum of constraint costs is minimized. When agents represent people (e.g., in meeting scheduling problems), the constraint information that the agents hold may be incomplete. For such scenarios, researchers proposed Incomplete DCOPs (I-DCOPs), which allow agents to elicit from their human users some of the missing information. Existing I-DCOP approaches evaluate solutions not only by their quality, but also the elicitation costs spent to find them (ex-post). Unfortunately, this may result in the agents spending a lot of effort (in terms of elicitation costs) to find high-quality solutions, and then ignoring them because previous lower-quality solutions were found with less effort. 
+
+Therefore, we propose a different approach for solving I-DCOPs by evaluating solutions based on their quality and considering the elicitation cost beforehand (ex-ante). Agents are limited in the amount of information that they can elicit and, therefore, need to make smart decisions on choosing which missing information to elicit. We propose several heuristics for making these decisions. Our results indicate that some of the heuristics designed produce high-quality solutions, which significantly outperform the previously proposed ex-post heuristics.},
+  pdf={cp-ZivanR024.pdf},  
+  bibtex_show={true},    
+  about-selected={false},
+  project-selected={true},      
+  project={dcop},
+}
+
+@inproceedings{conf/cp/RachmutZ024,
+  author       = {Ben Rachmut and
+                  Roie Zivan and
+                  William Yeoh},
+  title        = {Latency-Aware 2-Opt Monotonic Local Search for Distributed Constraint Optimization},
+  booktitle    = {International Conference on Principles and Practice of Constraint Programming},
+  pages        = {to appear},
+  year         = {2024},
+  abbr       = {CP},  
+  abstract = {Researchers recently extended Distributed Constraint Optimization Problems (DCOPs) to Communication-Aware DCOPs so that they are applicable in scenarios in which messages can be arbitrarily delayed. Distributed asynchronous local search and inference algorithms designed for CA-DCOPs are less vulnerable to message latency than their counterparts for regular DCOPs. However, unlike local search algorithms for (regular) DCOPs that converge to k-opt solutions (with k > 1), that is, they converge to solutions that cannot be improved by a group of k agents), local search CA-DCOP algorithms are limited to 1-opt solutions only.
+
+In this paper, we introduce Latency-Aware Monotonic Distributed Local Search-2 (LAMDLS-2), where agents form pairs and coordinate bilateral assignment replacements. LAMDLS-2 is monotonic, converges to a 2-opt solution, and is also robust to message latency, making it suitable for CA-DCOPs. Our results indicate that LAMDLS-2 converges faster than MGM-2, a benchmark algorithm, to a similar 2-opt solution, in various message latency scenarios.},
+  pdf={cp-ZivanR024.pdf},  
+  bibtex_show={true},    
+  about-selected={false},
+  project-selected={true},      
+  project={dcop},
+}
+
 @inproceedings{conf/aamas/Springsteen0C24,
   author       = {Jean Springsteen and
                   William Yeoh and
