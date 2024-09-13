@@ -324,6 +324,25 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
 
 %% Conference publications (full papers)
 
+@inproceedings{conf/kr/VasileiouA0ST24,
+  author       = {Stylianos Loukas Vasileiou and
+                  Ashwin Kumar and
+                  William Yeoh and
+                  Tran Cao Son and
+                  Francesca Toni},
+  title        = {Dialectical Reconciliation via Structured Argumentative Dialogues},
+  booktitle    = {International Conference on Principles of Knowledge Representation and Reasoning},
+  pages        = {to appear},
+  year         = {2024},
+  abbr       = {KR},  
+  abstract = {We present a novel framework designed to extend model reconciliation approaches, commonly used in human-aware planning, for enhanced human-AI interaction. By adopting a structured argumentation-based dialogue paradigm, our framework enables dialectical reconciliation to address knowledge discrepancies between an explainer (AI agent) and an explainee (human user), where the goal is for the explainee to understand the explainer's decision. We formally describe the operational semantics of our proposed framework, providing theoretical guarantees. We then evaluate the framework's efficacy ``in the wild'' via computational and human-subject experiments. Our findings suggest that our framework offers a promising direction for fostering effective human-AI interactions in domains where explainability is important.},
+  pdf={kr-VasileiouA0ST24.pdf},  
+  bibtex_show={true},    
+  about-selected={false},
+  project-selected={true},      
+  project={xaip},        
+}
+
 @inproceedings{conf/ijcai/SkylerSAFSC0K0U24,
   author       = {Shawn Skyler and
                   Shahaf Shperberg and
@@ -340,7 +359,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   pages        = {to appear},
   year         = {2024},
   abbr       = {IJCAI},  
-  abstract = {This paper provides a theoretical study on Multi-Objective Heuristic Search. We first classify states in the state space into must-expand, maybe-expand, and never-expand states and then transfer these definitions to nodes in the search tree. We then formalize a framework that generalizes A* to Multi-Objective Search. We study different ways to order nodes under this framework and its relation to traditional tie-breaking policies and provide theoretical findings.  Finally, we study and empirically compare different ordering functions..},
+  abstract = {This paper provides a theoretical study on Multi-Objective Heuristic Search. We first classify states in the state space into must-expand, maybe-expand, and never-expand states and then transfer these definitions to nodes in the search tree. We then formalize a framework that generalizes A* to Multi-Objective Search. We study different ways to order nodes under this framework and its relation to traditional tie-breaking policies and provide theoretical findings.  Finally, we study and empirically compare different ordering functions.},
   pdf={ijcai-SkylerSAFSC0K0U24.pdf},  
   bibtex_show={true},    
   about-selected={false},
@@ -352,7 +371,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
                   William Yeoh},
   title        = {Ex-Ante Constraint Elicitation in Incomplete {DCOP}s},
   booktitle    = {International Conference on Principles and Practice of Constraint Programming},
-  pages        = {to appear},
+  pages        = {33:1--33:16},
   year         = {2024},
   abbr       = {CP},  
   abstract = {Distributed Constraint Optimization Problems (DCOPs) is a framework for representing and solving distributed combinatorial problems, where agents  exchange messages to assign variables they own, such that the sum of constraint costs is minimized. When agents represent people (e.g., in meeting scheduling problems), the constraint information that the agents hold may be incomplete. For such scenarios, researchers proposed Incomplete DCOPs (I-DCOPs), which allow agents to elicit from their human users some of the missing information. Existing I-DCOP approaches evaluate solutions not only by their quality, but also the elicitation costs spent to find them (ex-post). Unfortunately, this may result in the agents spending a lot of effort (in terms of elicitation costs) to find high-quality solutions, and then ignoring them because previous lower-quality solutions were found with less effort. 
@@ -371,13 +390,13 @@ Therefore, we propose a different approach for solving I-DCOPs by evaluating sol
                   William Yeoh},
   title        = {Latency-Aware 2-Opt Monotonic Local Search for Distributed Constraint Optimization},
   booktitle    = {International Conference on Principles and Practice of Constraint Programming},
-  pages        = {to appear},
+  pages        = {24:1--24:17},
   year         = {2024},
   abbr       = {CP},  
   abstract = {Researchers recently extended Distributed Constraint Optimization Problems (DCOPs) to Communication-Aware DCOPs so that they are applicable in scenarios in which messages can be arbitrarily delayed. Distributed asynchronous local search and inference algorithms designed for CA-DCOPs are less vulnerable to message latency than their counterparts for regular DCOPs. However, unlike local search algorithms for (regular) DCOPs that converge to k-opt solutions (with k > 1), that is, they converge to solutions that cannot be improved by a group of k agents), local search CA-DCOP algorithms are limited to 1-opt solutions only.
 
 In this paper, we introduce Latency-Aware Monotonic Distributed Local Search-2 (LAMDLS-2), where agents form pairs and coordinate bilateral assignment replacements. LAMDLS-2 is monotonic, converges to a 2-opt solution, and is also robust to message latency, making it suitable for CA-DCOPs. Our results indicate that LAMDLS-2 converges faster than MGM-2, a benchmark algorithm, to a similar 2-opt solution, in various message latency scenarios.},
-  pdf={cp-ZivanR024.pdf},  
+  pdf={cp-RachmutZ024.pdf},  
   bibtex_show={true},    
   about-selected={false},
   project-selected={true},      
@@ -390,7 +409,7 @@ In this paper, we introduce Latency-Aware Monotonic Distributed Local Search-2 (
                   Dino Christenson},
   title        = {Algorithmic Filtering, Out-Group Stereotype, and Polarization on Social Media},
   booktitle    = {International Conference on Autonomous Agents and Multiagent Systems},
-  pages        = {to appear},
+  pages        = {1782--1790},
   year         = {2024},
   abbr       = {AAMAS},  
   abstract = {The introduction of social media websites touted the idea of global communication — exposing users to a worldwide audience and a diverse range of experiences, opinions, and debates. Unfortunately, studies have shown that social networks have instead contributed to growing levels of polarization in society across a wide variety of issues. Social media websites employ algorithmic filtering strategies to drive engagement, which can lead to the formation of filter bubbles and increased levels of polarization. In this paper, we introduce features of affective polarization — feelings towards one’s in-group and out-group — into an opinion dynamics model. Specifically, we show that incorporating a negative out-group stereotype into the opinion dynamics model (1) affects the level of polarization present among agents in the network; (2) changes the effectiveness of algorithmic filtering strategies; and (3) is exacerbated by the presence of extremists in the network. Hence, the inclusion of an affective group mechanism in opinion dynamics modeling provides novel insights into the effects of algorithmic filtering strategies on the extremity of opinions in social networks.},
