@@ -22,6 +22,25 @@
               
               {% else %}
               {% assign news_limit = news_size %}
+			  <h3>2025:</h3>
+              <table class="news">
+              {% for item in news limit: news_limit %}
+              {% capture year %}{{ item.date | date: "%Y"}}{% endcapture %}
+              {% if year == "2025" %}
+                <tr>
+                  <th scope="row">{{ item.date | date: "%b %Y:" }}</th>
+                  <td>
+                    {% if item.inline -%}
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%}
+                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %}
+                  </td>
+                </tr>
+              {% endif %}            
+              {%- endfor %}
+              </table>
+
 			  <h3>2024:</h3>
               <table class="news">
               {% for item in news limit: news_limit %}
