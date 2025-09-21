@@ -344,6 +344,67 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
 
 %% Conference publications (full papers)
 
+@inproceedings{conf/emnlp/LiuWNLLZTVZ25,
+  author       = {Han Liu and 
+                  Ruoyao Wen and
+                  Srijit Nair and
+                  Jia Liu and
+                  Wenjing Lou and
+                  Chongjie Zhang and
+                  William Yeoh and
+                  Yevgeniy Vorobeychik and
+                  Ning Zhang},
+  title        = {{EcoLoRa}: Communication-Efficient Federated Fine-Tuning of Large Language Models},
+  booktitle    = {Conference on Empirical Methods in Natural Language Processing},
+  pages        = {to appear},
+  year         = {2025},
+  abbr       = {EMNLP},  
+  abstract = {To address data locality and privacy restrictions, Federated Learning (FL) has recently been adopted to fine-tune large language models (LLMs), enabling improved performance on various downstream tasks without requiring aggregated data. However, the repeated exchange of model updates in FL can result in prohibitively high communication costs, hinder- ing the distributed learning process. To address this challenge, we propose EcoLoRa, a novel communication-efficient federated fine-tuning framework for LLMs. Leveraging the modular structure, we propose a round-robin segment sharing scheme, where each client uploads only a complementary LoRA segment per round to reduce network bandwidth. It is further combined with adaptive sparsification methods tailored to LoRA’s training dynamics and lossless encoding techniques. We conduct extensive evaluations on both question-answering and value-alignment tasks across multiple datasets and models. The results show that EcoLoRa significantly reduces communication overhead without compromising performance. For in- stance, it reduces communication time by up to 79% and total training time by up to 65%.},
+  pdf={emnlp-LiuWNLLZTVZ25.pdf},  
+  bibtex_show={true},    
+  about-selected={false},
+}
+
+@inproceedings{conf/kr/RagoVTTY25.pdf,
+  author       = {Antonio Rago and 
+                  Stylianos Loukas Vasileiou and
+                  Tran Cao Son and
+                  Francesca Toni and
+                  William Yeoh},
+  title        = {A Methodology for Incompleteness-Tolerant and Modular Gradual Semantics for Argumentative Statement Graphs},
+  booktitle    = {International Conference on Principles of Knowledge Representation and Reasoning},
+  pages        = {to appear},
+  year         = {2025},
+  abbr       = {KR},  
+  abstract = {Gradual semantics (GS) have demonstrated great potential in argumentation, in particular for deploying quantitative bipolar argumentation frameworks (QBAFs) in a number of real-world settings, from judgmental forecasting to explainable AI. In this paper, we provide a novel methodology for obtaining GS for statement graphs, a form of structured argumentation framework, where arguments and relations between them are built from logical statements. Our methodology differs from existing approaches in the literature in two main ways. First, it naturally accommodates incomplete information, so that arguments with partially specified premises can play a meaningful role in the evaluation. Second, it is modularly defined to leverage on any GS for QBAFs. We also define a set of novel properties for our GS and study their suitability alongside a set of existing properties (adapted to our setting) for two instantiations of our GS, demonstrating their advantages over existing approaches.},
+  pdf={kr-RagoVTTY25.pdf},  
+  bibtex_show={true},    
+  about-selected={false},
+  project-selected={true},      
+  project={xaip},        
+}
+
+@inproceedings{conf/dac/LiLLCVYLZ25,
+  author       = {Zihan Li and 
+                  Han Liu and
+                  Ao Li and
+                  Ching-hsiang Chan and
+                  Yevgeniy Vorobeychik and
+                  William Yeoh and
+                  Wenjing Lou and
+                  Ning Zhang},
+  title        = {Resilient Federated Learning on Embedded Devices
+with Constrained Network Connectivity},
+  booktitle    = {{ACM/IEEE} Design Automation Conference},
+  pages        = {to appear},
+  year         = {2025},
+  abbr       = {DAC},  
+  abstract = {Federated learning enables decentralized model training while preserving data privacy. However, since the learning process overlays the physical network infrastructure, the efficiency of learning can be impacted by network connectivity. In this work, we conducted extensive experiments to empirically characterize the impacts and leverage the insights to propose an adaptive federation framework, where clients with limited bandwidth are only prompted to transmit adaptively compressed gradient updates when the gradient similarity score is similar between the local and global models. Our evaluation in simulated environments and on real hardware devices shows bandwidth savings of 60% to 78% compared to state-of-the-art methods.},
+  pdf={dac-LiLLCVYLZ25.pdf},  
+  bibtex_show={true},    
+  about-selected={false},
+}
+
 @inproceedings{conf/aaai/TangV025,
   author       = {Yinxu Tang and 
                   Stylianos Loukas Vasileiou and
@@ -351,6 +412,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   title        = {Does Your AI Agent Get You? A Personalizable Framework for Approximating
 Human Models from Argumentation-based Dialogue Traces},
   booktitle    = {{AAAI} Conference on Artificial Intelligence},
+  pages        = {to appear},
   year         = {2025},
   abbr       = {AAAI},  
   abstract = {Explainable AI is increasingly employing argumentation methods to facilitate interactive explanations between AI agents and human users. While existing approaches typically rely on predetermined human user models, there remains a critical gap in dynamically learning and updating these models during interactions. In this paper, we present a framework that enables AI agents to adapt their understanding of human users through argumentation-based dialogues. Our approach, called Persona, draws on prospect theory and integrates a probability weighting function with a Bayesian belief update mechanism that refines a probability distribution over possible human models based on exchanged arguments. Through empirical evaluations with human users in an applied argumentation setting, we demonstrate that Persona effectively captures evolving human beliefs, facilitates personalized interactions, and outperforms state-of-the-art methods.},
