@@ -150,9 +150,6 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
-table.news {
-  margin-bottom: 1rem;
-}
 table.news td,
 table.news th {
   font-size: 1rem;
@@ -161,6 +158,9 @@ table.news th {
   font-weight: bold;
   width: 5.5rem;
   vertical-align: top;
+}
+table.news {
+  margin-bottom: 1rem;
 }
 
 a,
