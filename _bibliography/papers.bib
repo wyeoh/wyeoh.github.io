@@ -344,6 +344,24 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
 
 %% Conference publications (full papers)
 
+@inproceedings{conf/nips/tangVDY25,
+  author       = {Yinxu Tang and 
+                  Stylianos Loukas Vasileiou and
+                  Vincent Derkinderen and
+                  William Yeoh},
+  title        = {Model Reconciliation via Cost-Optimal Explanations in Probabilistic Logic Programming},
+  booktitle    = {Annual Conference on Neural Information Processing Systems},
+  pages        = {to appear},
+  year         = {2025},
+  abbr       = {NeurIPS},  
+  abstract = {In human-AI interaction, effective communication relies on aligning the AI agent’s model with the human user’s mental model, a process known as model reconciliation. However, existing model reconciliation approaches predominantly assume deterministic models, overlooking the fact that human knowledge is often uncertain or probabilistic. To bridge this gap, we present a probabilistic model reconciliation framework that resolves inconsistencies in MPE outcome probabilities between an agent’s and a user’s models. Our approach is built on probabilistic logic programming (PLP) using ProbLog, where explanations are generated as cost-optimal model updates that reconcile these probabilistic differences. We develop two search algorithms -- a generic baseline and an optimized version. The latter is guided by theoretical insights and further extended with greedy and weighted variants to enhance scalability and efficiency. Our approach is validated through a user study on explanation types and computational experiments showing that the optimized version consistently outperforms the generic baseline.},
+  pdf={nips-tangVDY25.pdf},  
+  bibtex_show={true},    
+  about-selected={false},
+  project-selected={true},      
+  project={xaip},        
+}
+
 @inproceedings{conf/emnlp/LiuWNLLZTVZ25,
   author       = {Han Liu and 
                   Ruoyao Wen and
@@ -356,7 +374,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
                   Ning Zhang},
   title        = {{EcoLoRa}: Communication-Efficient Federated Fine-Tuning of Large Language Models},
   booktitle    = {Conference on Empirical Methods in Natural Language Processing},
-  pages        = {to appear},
+  pages        = {20743--20757},
   year         = {2025},
   abbr       = {EMNLP},  
   abstract = {To address data locality and privacy restrictions, Federated Learning (FL) has recently been adopted to fine-tune large language models (LLMs), enabling improved performance on various downstream tasks without requiring aggregated data. However, the repeated exchange of model updates in FL can result in prohibitively high communication costs, hinder- ing the distributed learning process. To address this challenge, we propose EcoLoRa, a novel communication-efficient federated fine-tuning framework for LLMs. Leveraging the modular structure, we propose a round-robin segment sharing scheme, where each client uploads only a complementary LoRA segment per round to reduce network bandwidth. It is further combined with adaptive sparsification methods tailored to LoRA’s training dynamics and lossless encoding techniques. We conduct extensive evaluations on both question-answering and value-alignment tasks across multiple datasets and models. The results show that EcoLoRa significantly reduces communication overhead without compromising performance. For in- stance, it reduces communication time by up to 79% and total training time by up to 65%.},
@@ -365,7 +383,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   about-selected={false},
 }
 
-@inproceedings{conf/kr/RagoVTTY25.pdf,
+@inproceedings{conf/kr/RagoVTTY25,
   author       = {Antonio Rago and 
                   Stylianos Loukas Vasileiou and
                   Tran Cao Son and
@@ -373,7 +391,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
                   William Yeoh},
   title        = {A Methodology for Incompleteness-Tolerant and Modular Gradual Semantics for Argumentative Statement Graphs},
   booktitle    = {International Conference on Principles of Knowledge Representation and Reasoning},
-  pages        = {to appear},
+  pages        = {500--511},
   year         = {2025},
   abbr       = {KR},  
   abstract = {Gradual semantics (GS) have demonstrated great potential in argumentation, in particular for deploying quantitative bipolar argumentation frameworks (QBAFs) in a number of real-world settings, from judgmental forecasting to explainable AI. In this paper, we provide a novel methodology for obtaining GS for statement graphs, a form of structured argumentation framework, where arguments and relations between them are built from logical statements. Our methodology differs from existing approaches in the literature in two main ways. First, it naturally accommodates incomplete information, so that arguments with partially specified premises can play a meaningful role in the evaluation. Second, it is modularly defined to leverage on any GS for QBAFs. We also define a set of novel properties for our GS and study their suitability alongside a set of existing properties (adapted to our setting) for two instantiations of our GS, demonstrating their advantages over existing approaches.},
@@ -391,7 +409,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   title        = {Does Your AI Agent Get You? A Personalizable Framework for Approximating
 Human Models from Argumentation-based Dialogue Traces},
   booktitle    = {{AAAI} Conference on Artificial Intelligence},
-  pages        = {to appear},
+  pages        = {14405--14413},
   year         = {2025},
   abbr       = {AAAI},  
   abstract = {Explainable AI is increasingly employing argumentation methods to facilitate interactive explanations between AI agents and human users. While existing approaches typically rely on predetermined human user models, there remains a critical gap in dynamically learning and updating these models during interactions. In this paper, we present a framework that enables AI agents to adapt their understanding of human users through argumentation-based dialogues. Our approach, called Persona, draws on prospect theory and integrates a probability weighting function with a Bayesian belief update mechanism that refines a probability distribution over possible human models based on exchanged arguments. Through empirical evaluations with human users in an applied argumentation setting, we demonstrate that Persona effectively captures evolving human beliefs, facilitates personalized interactions, and outperforms state-of-the-art methods.},
@@ -414,7 +432,7 @@ Human Models from Argumentation-based Dialogue Traces},
   title        = {Resilient Federated Learning on Embedded Devices
 with Constrained Network Connectivity},
   booktitle    = {{ACM/IEEE} Design Automation Conference},
-  pages        = {to appear},
+  pages        = {1--7},
   year         = {2025},
   abbr       = {DAC},  
   abstract = {Federated learning enables decentralized model training while preserving data privacy. However, since the learning process overlays the physical network infrastructure, the efficiency of learning can be impacted by network connectivity. In this work, we conducted extensive experiments to empirically characterize the impacts and leverage the insights to propose an adaptive federation framework, where clients with limited bandwidth are only prompted to transmit adaptively compressed gradient updates when the gradient similarity score is similar between the local and global models. Our evaluation in simulated environments and on real hardware devices shows bandwidth savings of 60% to 78% compared to state-of-the-art methods.},
@@ -432,7 +450,7 @@ with Constrained Network Connectivity},
                   Francesca Toni},
   title        = {Dialectical Reconciliation via Structured Argumentative Dialogues},
   booktitle    = {International Conference on Principles of Knowledge Representation and Reasoning},
-  pages        = {to appear},
+  pages        = {777--787},
   year         = {2024},
   abbr       = {KR},  
   abstract = {We present a novel framework designed to extend model reconciliation approaches, commonly used in human-aware planning, for enhanced human-AI interaction. By adopting a structured argumentation-based dialogue paradigm, our framework enables dialectical reconciliation to address knowledge discrepancies between an explainer (AI agent) and an explainee (human user), where the goal is for the explainee to understand the explainer's decision. We formally describe the operational semantics of our proposed framework, providing theoretical guarantees. We then evaluate the framework's efficacy ``in the wild'' via computational and human-subject experiments. Our findings suggest that our framework offers a promising direction for fostering effective human-AI interactions in domains where explainability is important.},
