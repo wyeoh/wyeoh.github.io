@@ -15,7 +15,7 @@
   abstract = {Explanation generation frameworks aim to make AI systems' decisions transparent and understandable to human users. However, generating explanations in uncertain environments characterized by incomplete information and probabilistic models remains a significant challenge. In this paper, we propose a novel framework for generating probabilistic monolithic explanations and model reconciling explanations. Monolithic explanations provide self-contained reasons for an explanandum without considering the agent receiving the explanation, while model reconciling explanations account for the knowledge of the agent receiving the explanation. For monolithic explanations, our approach integrates uncertainty by utilizing probabilistic logic to increase the probability of the explanandum. For model reconciling explanations, we propose a framework that extends the logic-based variant of the model reconciliation problem to account for probabilistic human models, where the goal is to find explanations that increase the probability of the explanandum while minimizing conflicts between the explanation and the probabilistic human model. We introduce explanatory gain and explanatory power as quantitative metrics to assess the quality of these explanations. Further, we present  algorithms that exploit the duality between minimal correction sets and minimal unsatisfiable sets to efficiently compute both types of explanations in probabilistic contexts. Extensive experimental evaluations on various benchmarks demonstrate the effectiveness and scalability of our approach in generating explanations under uncertainty.},
   pdf={jair-VasileiouYPS25.pdf},  
   bibtex_show={true},    
-  about-selected={false},    
+  about-selected={true},    
   project-selected={true},    
   project={xaip},    
 }
@@ -59,7 +59,7 @@ We contribute to the body of knowledge on Max-sum by: (1) Establishing the theor
   abstract = {Many interesting search problems can be formulated as bi-objective search problems, that is, search problems where two kinds of costs have to be minimized, for example, travel distance and time for transportation problems. Instead of looking for a single optimal path, we compute a Pareto-optimal frontier in bi-objective search, which is a set of paths in which no two paths dominate each other. Bi-objective search algorithms perform dominance checks each time a new path is discovered. Thus, the efficiency of these checks is key to performance. In this article, we propose algorithms for two kinds of bi-objective search problems. First, we consider the problem of computing the Pareto-optimal frontier of the paths that connect a given start state with a given goal state. We propose Bi-Objective A* (BOA*), a heuristic search algorithm based on A*, for this problem. Second, we consider the problem of computing one Pareto-optimal frontier for each state s of the search graph, which contains the paths that connect a given start state with s. We propose Bi-Objective Dijkstra (BOD), which is based on BOA*, for this problem. A common feature of BOA* and BOD is that all dominance checks are performed in constant time, unlike the dominance checks of previous algorithms. We show in our experimental evaluation that both BOA* and BOD are substantially faster than state-of-the-art bi-objective search algorithms.},
   pdf={ai-HernandezYBZSKS23.pdf},  
   bibtex_show={true},    
-  about-selected={true},  
+  about-selected={false},  
 }
 
 @article{journals/eaai/ChoudhurySYK0K23,
@@ -99,7 +99,7 @@ We contribute to the body of knowledge on Max-sum by: (1) Establishing the theor
 In this work, we address this limitation by: (1) Proposing a Communication-Aware DCOP model (CA-DCOP) that can represent scenarios with different communication disturbances; (2) Investigating the performance of existing local search DCOP algorithms, specifically Distributed Stochastic Algorithm (DSA) and Maximum Gain Messages (MGM), in the presence of message latency and message loss; (3) Proposing a latency-aware monotonic distributed local search DCOP algorithm; and (4) Proposing an asynchronous anytime framework for reporting the best solution explored by non-monotonic asynchronous local search DCOP algorithms. Our empirical results demonstrate that imperfect communication has a positive effect on distributed local search algorithms due to increased exploration. Furthermore, the asynchronous anytime framework we proposed allows one to benefit from algorithms with inherent explorative heuristics.},
   pdf={jair-RachmutZ022.pdf},  
   bibtex_show={true},    
-  about-selected={true},    
+  about-selected={false},    
   project-selected={true},    
   project={dcop},    
 }
@@ -357,7 +357,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   abstract = {In human-AI interaction, effective communication relies on aligning the AI agent’s model with the human user’s mental model, a process known as model reconciliation. However, existing model reconciliation approaches predominantly assume deterministic models, overlooking the fact that human knowledge is often uncertain or probabilistic. To bridge this gap, we present a probabilistic model reconciliation framework that resolves inconsistencies in MPE outcome probabilities between an agent’s and a user’s models. Our approach is built on probabilistic logic programming (PLP) using ProbLog, where explanations are generated as cost-optimal model updates that reconcile these probabilistic differences. We develop two search algorithms -- a generic baseline and an optimized version. The latter is guided by theoretical insights and further extended with greedy and weighted variants to enhance scalability and efficiency. Our approach is validated through a user study on explanation types and computational experiments showing that the optimized version consistently outperforms the generic baseline.},
   pdf={nips-tangVDY25.pdf},  
   bibtex_show={true},    
-  about-selected={false},
+  about-selected={true},
   project-selected={true},      
   project={xaip},        
 }
@@ -515,7 +515,7 @@ Therefore, we propose a different approach for solving I-DCOPs by evaluating sol
 
 In this paper, we introduce Latency-Aware Monotonic Distributed Local Search-2 (LAMDLS-2), where agents form pairs and coordinate bilateral assignment replacements. LAMDLS-2 is monotonic, converges to a 2-opt solution, and is also robust to message latency, making it suitable for CA-DCOPs. Our results indicate that LAMDLS-2 converges faster than MGM-2, a benchmark algorithm, to a similar 2-opt solution, in various message latency scenarios.},
   pdf={cp-RachmutZ024.pdf},  
-  bibtex_show={true},    
+  bibtex_show={false},    
   about-selected={false},
   project-selected={true},      
   project={dcop},
