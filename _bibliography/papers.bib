@@ -1,6 +1,24 @@
 %% journal and magazine articles
 
-@article{jair-VasileiouYPS25,
+@article{journals/tmlr/KasumbaYHKY25,
+  author       = {Robert Kasumba and
+                  Guanghui Yu and
+                  Chien-Ju Ho and
+                  Sarah Keren and
+                  William Yeoh},
+  title        = {Goal Recognition Design for General Behavioral Agents using Machine Learning},
+  journal      = {Transactions of Machine Learning Research},
+  year         = {2025},
+  abbr       = {TMLR},  
+  abstract = {Goal recognition design (GRD) aims to make limited modifications to decision-making environments to make it easier to infer the goals of agents acting within those environments. Although various research efforts have been made in goal recognition design, existing approaches are computationally demanding and often assume that agents are (near-)optimal in their decision-making. To address these limitations, we leverage machine learning methods for goal recognition design that can both improve run-time efficiency and account for agents with general behavioral models. Following existing literature, we use worst-case distinctiveness (wcd) as a measure of the difficulty in inferring the goal of an agent in a decision-making environment. Our approach begins by training a machine learning model to predict the wcd for a given environment and the agent behavior model. We then pro- pose a gradient-based optimization framework that accommodates various constraints to optimize decision-making environments for enhanced goal recognition. Through extensive simulations, we demonstrate that our approach outperforms existing methods in reducing wcd and enhances runtime efficiency. Moreover, our approach also adapts to settings in which existing approaches do not apply, such as those involving flexible budget constraints, more complex environments, and suboptimal agent behavior. Finally, we conducted human- subject experiments that demonstrate that our method creates environments that facilitate efficient goal recognition from human decision-makers.},
+  pdf={tmlr-KasumbaYHKY25.pdf},  
+  bibtex_show={true},    
+  about-selected={true},    
+  project-selected={true},    
+  project={grd},    
+}
+
+@article{journals/jair/VasileiouYPS25,
   author       = {Stylianos Loukas Vasileiou and
                   William Yeoh and
                   Alessandro Previti and
@@ -344,7 +362,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
 
 %% Conference publications (full papers)
 
-@inproceedings{conf/nips/tangVDY25,
+@inproceedings{conf/nips/TangVDY25,
   author       = {Yinxu Tang and 
                   Stylianos Loukas Vasileiou and
                   Vincent Derkinderen and
@@ -355,7 +373,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   year         = {2025},
   abbr       = {NeurIPS},  
   abstract = {In human-AI interaction, effective communication relies on aligning the AI agent’s model with the human user’s mental model, a process known as model reconciliation. However, existing model reconciliation approaches predominantly assume deterministic models, overlooking the fact that human knowledge is often uncertain or probabilistic. To bridge this gap, we present a probabilistic model reconciliation framework that resolves inconsistencies in MPE outcome probabilities between an agent’s and a user’s models. Our approach is built on probabilistic logic programming (PLP) using ProbLog, where explanations are generated as cost-optimal model updates that reconcile these probabilistic differences. We develop two search algorithms -- a generic baseline and an optimized version. The latter is guided by theoretical insights and further extended with greedy and weighted variants to enhance scalability and efficiency. Our approach is validated through a user study on explanation types and computational experiments showing that the optimized version consistently outperforms the generic baseline.},
-  pdf={nips-tangVDY25.pdf},  
+  pdf={nips-TangVDY25.pdf},  
   bibtex_show={true},    
   about-selected={true},
   project-selected={true},      
