@@ -61,7 +61,7 @@ We contribute to the body of knowledge on Max-sum by: (1) Establishing the theor
 }
 
 @article{journals/ai/HernandezYBZSKS23,
-  author       = {Carlos Hern{\'{a}}ndez and
+  author       = {Carlos Hern{\'{a}}ndez Ulloa and
                   William Yeoh and
                   Jorge A. Baier and
                   Han Zhang and
@@ -362,6 +362,59 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
 
 %% Conference publications (full papers)
 
+@inproceedings{conf/aamas/VasileiouRTY26,
+  author       = {Stylianos Loukas Vasileiou and
+                  Antonio Rago and
+                  Francesca Toni and
+                  William Yeoh},
+  title        = {Argumentative Human-AI Decision-Making: Toward AI Agents That Reason With Us, Not For Us},
+  booktitle    = {International Conference on Autonomous Agents and Multiagent Systems},
+  pages        = {to appear},
+  year         = {2026},
+  abbr       = {AAMAS},  
+  abstract = {Computational argumentation offers formal frameworks for transparent, verifiable reasoning but has traditionally been limited by its reliance on domain-specific information and extensive feature engineering. In contrast, LLMs excel at processing unstructured text, yet their opaque nature makes their reasoning difficult to evaluate and trust. We argue that the convergence of these fields will lay the foundation for a new paradigm: Argumentative Human-AI Decision-Making. We analyze how the synergy of argumentation framework mining, argumentation framework synthesis, and argumentative reasoning enables agents that do not just justify decisions, but engage in dialectical processes where decisions are contestable and revisable -- reasoning with humans rather than for them. This convergence of computational argumentation and LLMs is essential for human-aware, trustworthy AI in high-stakes domains.},
+  pdf={aamas-VasileiouRTY26.pdf},  
+  bibtex_show={true},    
+  about-selected={true},
+  project-selected={true},
+  project={xaip},
+}
+
+@inproceedings{conf/aamas/PicardYZ26,
+  author       = {Gauthier Picard and
+                  William Yeoh and
+                  Roie Zivan},
+  title        = {Agentic LLMs and Distributed Constraint Reasoning: A Symbiotic Perspective for Neurosymbolic Multi-Agent Systems},
+  booktitle    = {International Conference on Autonomous Agents and Multiagent Systems},
+  pages        = {to appear},
+  year         = {2026},
+  abbr       = {AAMAS},  
+  abstract = {Distributed Constraint Reasoning (DCR) has long provided a principled framework for modeling and solving multi-agent coordination and optimization problems. However, its practical adoption in real-world, human-centric domains has been hindered by the challenge of translating human intentions, preferences, and constraints into formal symbolic models. At the same time, recent advances in LLMs have enabled powerful agentic capabilities, including natural language understanding, flexible reasoning, and interactive problem solving, but these systems lack the formal rigor and guarantees needed for scalable multi-agent coordination. In this paper, we argue that the convergence of these two paradigms offers a timely and transformative opportunity. We articulate several synergistic research directions: leveraging LLMs for translating natural language into DCR specifications, eliciting and refining user preferences, and enhancing inter-agent communication; and conversely, applying DCR models and algorithms to improve coordination, structured reasoning, resource allocation, and communication sensitivity in Agentic LLM systems. Together, these threads point toward hybrid neurosymbolic systems that combine the adaptability of LLMs with the mathematical rigor of DCR.},
+  pdf={aamas-PicardYZ26.pdf},  
+  bibtex_show={true},    
+  about-selected={true},
+  project-selected={true},
+  project={federated-multiagent-learning,dcop},
+}
+
+@inproceedings{conf/aamas/KumarY26,
+  author       = {Ashwin Kumar and
+                  William Yeoh},
+  title        = {A General Incentives-Based Framework for Fairness in Multi-agent Resource Allocation},
+  booktitle    = {International Conference on Autonomous Agents and Multiagent Systems},
+  pages        = {to appear},
+  year         = {2026},
+  abbr       = {AAMAS},  
+  abstract = {We introduce the General Incentives-based Framework for Fairness (GIFF), a novel approach for fair multi-agent resource allocation that infers fair decision-making from standard value functions. In resource-constrained settings, agents optimizing for efficiency often create inequitable outcomes. Our approach leverages the action-value (Q-)function to balance efficiency and fairness without requiring additional training. Specifically, our method computes a local fairness gain for each action and introduces a counterfactual advantage correction term to discourage over-allocation to already well-off agents. This approach is formalized within a centralized control setting, where an arbitrator uses the GIFF-modified Q-values to solve an allocation problem.
+
+Empirical evaluations across diverse domains—including dynamic ridesharing, homelessness prevention, and a complex job allocation task—demonstrate that our framework consistently outperforms strong baselines and can discover far-sighted, equitable policies. The framework's effectiveness is supported by a theoretical foundation; we prove its fairness surrogate is a principled lower bound on the true fairness improvement and that its trade-off parameter offers monotonic tuning. Our findings establish GIFF as a robust and principled framework for leveraging standard reinforcement learning components to achieve more equitable outcomes in complex multi-agent systems.},
+  pdf={aamas-KumarY26.pdf},  
+  bibtex_show={true},    
+  about-selected={false},
+  project-selected={true},
+  project={multiagent-planning},
+}
+
 @inproceedings{conf/nips/TangVDY25,
   author       = {Yinxu Tang and 
                   Stylianos Loukas Vasileiou and
@@ -493,7 +546,7 @@ with Constrained Network Connectivity},
                   Han Zhang and
                   Sven Koenig and
                   William Yeoh and
-                  Carlos Hern{\'{a}}ndez},
+                  Carlos Hern{\'{a}}ndez Ulloa},
   title        = {Theoretical Study on Multi-objective Heuristic Search},
   booktitle    = {International Joint Conference on Artificial Intelligence},
   pages        = {7021--7028},
@@ -624,7 +677,7 @@ than the centralized algorithm.},
   abstract = {State-of-the-art order dispatching algorithms for ridesharing batch passenger requests and allocate them to a fleet of vehicles in a centralized manner, optimizing over the estimated values of each passenger-vehicle matching using integer linear programming (ILP). Using good estimates of future values, such ILP-based approaches are able to significantly increase the service rates (percentage of requests served) for a fixed fleet of vehicles. However, such approaches that focus solely on maximizing efficiency can lead to disparities for both drivers (e.g., income inequality) and passengers (e.g., inequality of service for different groups). Existing approaches that consider fairness only do it for naive assignment policies, require extensive training, or look at only single-sided fairness. We propose a simple incentive-based fairness scheme that can be implemented online as a part of this ILP formulation that allows us to improve fairness over a variety of fairness metrics. Deriving from a lens of variance minimization, we describe how these fairness incentives can be formulated for two distinct use cases for passenger groups and driver fairness. We show that under mild conditions, our approach can guarantee an improvement in the chosen metric for the worst-off individual. We also show empirically that our Simple Incentives approach significantly outperforms prior art, despite requiring no retraining; indeed, it often leads to a large improvement over the state-of-the-art fairness-aware approach in both overall service rate and fairness.},
   pdf={icaps-KumarV023.pdf},  
   bibtex_show={true},    
-  about-selected={true},
+  about-selected={false},
   project-selected={true},      
   project={map},  
 }
@@ -833,7 +886,7 @@ In this work, we address this limitation by: (1) Investigating the performance o
 }
 
 @inproceedings{conf/icaps/Ulloa0BZSK20,
-  author       = {Carlos Hern{\'{a}}ndez and
+  author       = {Carlos Hern{\'{a}}ndez Ulloa and
                   William Yeoh and
                   Jorge A. Baier and
                   Han Zhang and
@@ -1100,7 +1153,7 @@ To tackle this problem, we propose a cost model that captures the cognitive or b
   author       = {Devon Sigurdson and
                   Vadim Bulitko and
                   William Yeoh and
-                  Carlos Hern{\'{a}}ndez and
+                  Carlos Hern{\'{a}}ndez Ulloa and
                   Sven Koenig},
   title        = {Multi-Agent Pathfinding with Real-Time Heuristic Search},
   booktitle    = {{IEEE} Conference on Computational Intelligence and Games},
@@ -1802,4 +1855,29 @@ In contrast with our research, existing work, especially on GRD problems, has fo
   pdf={aamas-SunKY08.pdf},  
   bibtex_show={true},    
   about-selected={false},
+}
+
+%% demos
+
+
+@inproceedings{DBLP:conf/aaai/WayllaceHHHM0O20,
+  author       = {Christabel Wayllace and
+                  Sunwoo Ha and
+                  Yuchen Han and
+                  Jiaming Hu and
+                  Shayan Monadjemi and
+                  William Yeoh and
+                  Alvitta Ottley},
+  title        = {{DRAGON-V:} Detection and Recognition of Airplane Goals with Navigational Visualization},
+  booktitle    = {{AAAI} Conference on Artificial Intelligence},
+  pages        = {13642--13643},
+  year         = {2020},
+  abbr       = {AAAI},  
+  abstract = {We introduce Detection and Recognition of Airplane GOals with Navigational Visualization (DRAGON-V), a visualization system that uses probabilistic goal recognition to infer and display the most probable airport runway that a pilot is approaching. DRAGON-V is especially useful in cases of miscommunication, low visibility, or lack of airport familiarity which may result in a pilot deviating from the assigned taxiing route. The visualization system conveys relevant in- formation, and updates according to the airplane’s current geolocation. DRAGON-V aims to assist air traffic controllers in reducing incidents of runway incursions at airports.},
+  pdf={aaai-WayllaceHHHM0O20.pdf},  
+  bibtex_show={true},    
+  about-selected={false},
+  project-selected={true},    
+  project={grd},      
+
 }
