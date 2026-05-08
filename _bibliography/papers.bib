@@ -33,7 +33,7 @@
   abstract = {Explanation generation frameworks aim to make AI systems' decisions transparent and understandable to human users. However, generating explanations in uncertain environments characterized by incomplete information and probabilistic models remains a significant challenge. In this paper, we propose a novel framework for generating probabilistic monolithic explanations and model reconciling explanations. Monolithic explanations provide self-contained reasons for an explanandum without considering the agent receiving the explanation, while model reconciling explanations account for the knowledge of the agent receiving the explanation. For monolithic explanations, our approach integrates uncertainty by utilizing probabilistic logic to increase the probability of the explanandum. For model reconciling explanations, we propose a framework that extends the logic-based variant of the model reconciliation problem to account for probabilistic human models, where the goal is to find explanations that increase the probability of the explanandum while minimizing conflicts between the explanation and the probabilistic human model. We introduce explanatory gain and explanatory power as quantitative metrics to assess the quality of these explanations. Further, we present  algorithms that exploit the duality between minimal correction sets and minimal unsatisfiable sets to efficiently compute both types of explanations in probabilistic contexts. Extensive experimental evaluations on various benchmarks demonstrate the effectiveness and scalability of our approach in generating explanations under uncertainty.},
   pdf={jair-VasileiouYPS25.pdf},  
   bibtex_show={true},    
-  about-selected={true},    
+  about-selected={false},    
   project-selected={true},    
   project={xaip},    
 }
@@ -362,6 +362,42 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
 
 %% Conference publications (full papers)
 
+@inproceedings{conf/acl/MaYZV26,
+  author       = {Xinhang Ma and
+                  William Yeoh and
+                  Ning Zhang and
+                  Yevgeniy Vorobeychik},
+  title        = {Protecting Language Models Against Unauthorized Distillation through Trace Rewriting},
+  booktitle    = {Annual Meeting of the Association for Computational Linguistics},
+  pages        = {to appear},
+  year         = {2026},
+  abbr       = {ACL},  
+  abstract = {Knowledge distillation is a widely adopted technique for transferring capabilities from LLMs to smaller, more efficient student models. However, unauthorized use of knowledge distillation takes unfair advantage of the considerable effort and cost put into developing frontier models. We investigate methods for modifying teacher-generated reasoning traces to achieve two objectives that deter unauthorized distillation: (1) anti-distillation, or degrading the training usefulness of query responses, and (2) API watermarking, which embeds verifiable signatures in student models. We introduce several approaches for dynamically rewriting a teacher's reasoning outputs while preserving answer correctness and semantic coherence. Two of these leverage the rewriting capabilities of LLMs, while others use gradient-based techniques. Our experiments show that a simple instruction-based rewriting approach achieves a strong anti-distillation effect while maintaining or even improving teacher performance. Furthermore, we show that our rewriting approach also enables embedding watermarks that can be reliably detected
+with essentially no false alarms. Our code is available at https://github.com/xhOwenMa/trace-rewriting.},
+  pdf={acl-MaYZV26.pdf},  
+  bibtex_show={true},    
+  about-selected={true},
+  project-selected={true},
+  project={federated-multiagent-learning},
+}
+
+@inproceedings{conf/fat/KumarY26,
+  author       = {Ashwin Kumar and
+                  William Yeoh},
+  title        = {Learning Fairness in Multi-agent Systems with Distributed-Evaluation, Centralized-Allocation},
+  booktitle    = {ACM Conference on Fairness, Accountability, and Transparency},
+  pages        = {to appear},
+  year         = {2026},
+  abbr       = {FAccT},  
+  abstract = {A wide variety of resource allocation problems operate under resource constraints that are managed by a central arbitrator, with agents who evaluate and communicate preferences over these resources. We formulate this broad class of problems as Distributed Evaluation, Centralized Allocation (DECA) problems and propose methods to learn fair and efficient policies in centralized resource allocation. Our methods are applied to learning long-term fairness in a novel and general framework for fairness in multi-agent systems. We show three different methods based on Double Deep Q-Learning: (1) A joint weighted optimization of fairness and utility, (2) a split optimization, learning two separate Q-estimators for utility and fairness, and (3) an online policy perturbation to guide existing black-box utility functions toward fair solutions. Our methods outperform existing fair MARL approaches on multiple resource allocation domains, even when evaluated using diverse fairness functions, and allow for flexible online trade-offs between utility and fairness.},
+  pdf={fat-KumarY26.pdf},  
+  bibtex_show={true},    
+  about-selected={true},
+  project-selected={true},
+  project={map},
+  project={federated-multiagent-learning},
+}
+
 @inproceedings{conf/aamas/VasileiouRTY26,
   author       = {Stylianos Loukas Vasileiou and
                   Antonio Rago and
@@ -394,7 +430,8 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   bibtex_show={true},    
   about-selected={true},
   project-selected={true},
-  project={federated-multiagent-learning,dcop},
+  project={federated-multiagent-learning},
+  project={dcop},  
 }
 
 @inproceedings{conf/aamas/KumarY26,
@@ -412,7 +449,7 @@ Empirical evaluations across diverse domains—including dynamic ridesharing, ho
   bibtex_show={true},    
   about-selected={false},
   project-selected={true},
-  project={multiagent-planning},
+  project={map},
 }
 
 @inproceedings{conf/nips/TangVDY25,
@@ -488,7 +525,7 @@ Human Models from Argumentation-based Dialogue Traces},
   abstract = {Explainable AI is increasingly employing argumentation methods to facilitate interactive explanations between AI agents and human users. While existing approaches typically rely on predetermined human user models, there remains a critical gap in dynamically learning and updating these models during interactions. In this paper, we present a framework that enables AI agents to adapt their understanding of human users through argumentation-based dialogues. Our approach, called Persona, draws on prospect theory and integrates a probability weighting function with a Bayesian belief update mechanism that refines a probability distribution over possible human models based on exchanged arguments. Through empirical evaluations with human users in an applied argumentation setting, we demonstrate that Persona effectively captures evolving human beliefs, facilitates personalized interactions, and outperforms state-of-the-art methods.},
   pdf={aaai-TangV025.pdf},  
   bibtex_show={true},    
-  about-selected={true},
+  about-selected={false},
   project-selected={true},    
   project={xaip},      
 }
