@@ -15,8 +15,9 @@ I take pride in teaching. There is no satisfaction greater than seeing the face 
 <ul>
 <li style="margin: -12px 0px 0px 0px;">CSE 3101: Introduction to Intelligent Agents Using Science Fiction (F'18, S'20, F'22, F'23, F'24, S'25, F'25)</li>
 <li>CSE 4102: Introduction to Artificial Intelligence (S'18, S'19, F'19, F'20, S'21, F'21, S'22)</li>
-<li>DCDS 5990: Introduction to Graduate Research in Computational and Data Sciences (F'19, F'25)</li>
-<li>DCDS 5000: Computational and Data Sciences Research Exploration (S'21, S'22, S'23, S'25)</li>
+<li>CSE 5106: Multi-Agent Systems (F'26)</li>
+<li>DCDS 5990: Introduction to Graduate Research in Computational and Data Sciences (F'21, F'25)</li>
+<li>DCDS 5000: Computational and Data Sciences Research Exploration (S'21, S'22, S'23, S'25, S'26)</li>
 </ul>
 
 **New Mexico State University:**
