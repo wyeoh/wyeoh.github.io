@@ -362,6 +362,25 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
 
 %% Conference publications (full papers)
 
+@inproceedings{conf/ecml/RachmutGZYV26,
+  author       = {Ben Rachmut and
+                  Luise Ge and
+                  Ning Zhang and
+                  William Yeoh and
+                  Yevgeniy Vorobeychik},
+  title        = {{COSMOS}: Model-Agnostic Personalized Federated Learning with Clustered Server Models and Pseudo-Label-Only Communication},
+  booktitle    = {European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases},
+  pages        = {to appear},
+  year         = {2026},
+  abbr       = {ECML},  
+  abstract = {Federated learning (FL) in heterogeneous environments remains challenging because client models often differ in both architecture and data distribution. While recent approaches attempt to address this challenge through client clustering and knowledge distillation, simultaneously handling architectural and statistical heterogeneity remains difficult. We introduce COSMOS, a model-agnostic framework that enables server-side personalization using only pseudo-label communication. Clients train local models and predict on the public data; the server clusters clients by prediction similarity, trains a cluster-specific model for each group using its own compute, and distills the resulting models back to clients. We provide the first theoretical analysis showing that distillation from the learned cluster models can yield exponential personalization risk contraction, going beyond the convergence-to-stationarity guarantees typically provided in model-agnostic FL. Experiments across benchmarks demonstrate that COSMOS consistently outperforms all model-agnostic FL baselines while remaining competitive with state-of-the-art personalized FL methods. More broadly, our results highlight personalized server-side learning with pseudo-labels as a promising paradigm for scalable and model-agnostic federated learning in highly heterogeneous environments.},
+  pdf={ecml-RachmutGZYV26.pdf},  
+  bibtex_show={true},    
+  about-selected={true},
+  project-selected={true},
+  project={federated-multiagent-learning},
+}
+
 @inproceedings{conf/acl/MaYZV26,
   author       = {Xinhang Ma and
                   William Yeoh and
@@ -372,8 +391,7 @@ The paper demonstrates that the use of GPUs provides significant advantages in t
   pages        = {to appear},
   year         = {2026},
   abbr       = {ACL},  
-  abstract = {Knowledge distillation is a widely adopted technique for transferring capabilities from LLMs to smaller, more efficient student models. However, unauthorized use of knowledge distillation takes unfair advantage of the considerable effort and cost put into developing frontier models. We investigate methods for modifying teacher-generated reasoning traces to achieve two objectives that deter unauthorized distillation: (1) anti-distillation, or degrading the training usefulness of query responses, and (2) API watermarking, which embeds verifiable signatures in student models. We introduce several approaches for dynamically rewriting a teacher's reasoning outputs while preserving answer correctness and semantic coherence. Two of these leverage the rewriting capabilities of LLMs, while others use gradient-based techniques. Our experiments show that a simple instruction-based rewriting approach achieves a strong anti-distillation effect while maintaining or even improving teacher performance. Furthermore, we show that our rewriting approach also enables embedding watermarks that can be reliably detected
-with essentially no false alarms. Our code is available at https://github.com/xhOwenMa/trace-rewriting.},
+  abstract = {Knowledge distillation is a widely adopted technique for transferring capabilities from LLMs to smaller, more efficient student models. However, unauthorized use of knowledge distillation takes unfair advantage of the considerable effort and cost put into developing frontier models. We investigate methods for modifying teacher-generated reasoning traces to achieve two objectives that deter unauthorized distillation: (1) anti-distillation, or degrading the training usefulness of query responses, and (2) API watermarking, which embeds verifiable signatures in student models. We introduce several approaches for dynamically rewriting a teacher's reasoning outputs while preserving answer correctness and semantic coherence. Two of these leverage the rewriting capabilities of LLMs, while others use gradient-based techniques. Our experiments show that a simple instruction-based rewriting approach achieves a strong anti-distillation effect while maintaining or even improving teacher performance. Furthermore, we show that our rewriting approach also enables embedding watermarks that can be reliably detected with essentially no false alarms. Our code is available at https://github.com/xhOwenMa/trace-rewriting.},
   pdf={acl-MaYZV26.pdf},  
   bibtex_show={true},    
   about-selected={true},
@@ -420,7 +438,7 @@ with essentially no false alarms. Our code is available at https://github.com/xh
   author       = {Gauthier Picard and
                   William Yeoh and
                   Roie Zivan},
-  title        = {Agentic LLMs and Distributed Constraint Reasoning: A Symbiotic Perspective for Neurosymbolic Multi-Agent Systems},
+  title        = {Agentic {LLM}s and Distributed Constraint Reasoning: A Symbiotic Perspective for Neurosymbolic Multi-Agent Systems},
   booktitle    = {International Conference on Autonomous Agents and Multiagent Systems},
   pages        = {to appear},
   year         = {2026},
