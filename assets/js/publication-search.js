@@ -18,7 +18,8 @@
 
   const filter = () => {
     const query = normalize(input.value);
-    const terms = query.split(" ").filter(Boolean);
+    // Keep quoted phrases together; an unfinished quote extends to the end.
+    const terms = Array.from(query.matchAll(/"([^"]*)"?|([^\s"]+)/g), (match) => (match[1] ?? match[2]).trim()).filter(Boolean);
     let total = 0;
     groups.forEach(({ section, entries }) => {
       let matches = 0;
