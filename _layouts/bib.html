@@ -1,7 +1,7 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row" data-publication-search="{{ entry.title | strip_html | escape }} {{ entry.author | escape }} {{ entry.journal | escape }} {{ entry.booktitle | escape }} {{ entry.abbr | escape }} {{ entry.year | escape }}">
         <div class="col-sm-1 {% if entry.preview %}preview{% else %}abbr{% endif %}"> 
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
