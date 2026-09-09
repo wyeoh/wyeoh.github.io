@@ -7,7 +7,10 @@
     section,
     entries: Array.from(section.querySelectorAll("ol.bibliography > li"), (element) => ({
       element,
-      text: normalize(element.querySelector("[data-publication-search]").dataset.publicationSearch),
+      text: normalize([
+        element.querySelector("[data-publication-search]")?.dataset.publicationSearch || "",
+        ...Array.from(element.querySelectorAll(".title, .author, .periodical, .award, abbr"), (detail) => detail.textContent),
+      ].join(" ")),
     })),
   }));
   const status = document.getElementById("publication-search-status");
